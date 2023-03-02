@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula Aluno</title>
+</head>
+<body>
+    <h1>Matrícula Aluno</h1>
+    Dados Pessoais
+    <br>
+    <label for="letter">Nome: </label>
+    <input type="text" name="name" id="name" required pattern="[a-zA-Z\s]+$">
+    <br><br>
+    <label for="letter">CPF: </label>
+    <input type="text" name="cpf" id="cpf" required pattern="(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{11})">
+    <br><br>
+    <label for="dt">Data de nascimento: </label>
+    <input type="date" name="dt" id="dt" required min="2020-01-01" max="2022-02-03">
+    <br><br>
+    <label for="dt">Sexo: </label>
+    <input type="radio" name="F" id="F">Feminino <input type="radio" name="M" id="M">Masculino
+    <br><br>
+    <label for="letter">Cidade: </label>
+    <input type="text" name="city" id="city" required pattern="[a-zA-Z\s]+$">
+    <label for="states">Estado: </label>
+        <select name="states" id="states">
+            <optgroup label="Sudeste">
+                <option value="Sao Paulo">SP</option>
+                <option value="Rio de Janeiro">RJ</option>
+                <option value="Espirito Santo">ES</option>
+                <option value="Minas Gerais">MG</option>
+            </optgroup>
+        </select>
+    <br><br><br>
+    Dados da Matricula
+    <br>Curso: <br>
+    <input type="radio" name="course" id="ads"> Análise e Desenvolvimento de Sistemas
+    <input type="radio" name="course" id="eng"> Engenharia Mecânica
+    <input type="radio" name="course" id="sist"> Tecnologia em Sistemas para Internet
+    <br><br>
+    Disciplina(s) Optativa(s):
+    <br>
+    <input type="checkbox" name="disc" id="prog-robo"> Programação de Robôs
+    <input type="checkbox" name="disc" id="des-ia"> Desenvolvimento de Inteligências Artificiais<br>
+    <input type="checkbox" name="disc" id="mod-comp"> Modulagem Computacional 
+    <input type="checkbox" name="disc" id="iso-docker"> Ambientes isolados: desenvolvimento com Docker 
+    <br><br>
+    <label for="suggestion">Sugestões para disciplinas futuras:</label><br>
+        <textarea id="review" name="text-suggestion" rows="4" cols="50"></textarea>
+    <br><button type="button">  Enviar  </button>
+</select>
+</body>
