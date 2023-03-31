@@ -1,0 +1,12 @@
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+  
+.verde {
+    background-color: green;
+}
+
+.vermelho {
+    background-color: brown;
+}
