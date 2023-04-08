@@ -5,3 +5,5 @@
 
 ## Atividade 2: Capítulo 3 - Portfólio atualizado:
 ## Link <a href="https://thiagoavieira.github.io/portfolio/">🔗 Portfolio</a>
+
+## Atividade 1: Capítulo 4
