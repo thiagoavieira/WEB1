@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>TFlix</title>
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -66,26 +67,22 @@
                 <div class="inner">
                    <div class="slide slide_1">
                       <div class="slide-content">
-                         <h2>Slide 1</h2>
-                         <p>Content for Slide 1</p>
+                         <img src="img/alice-in-borderland.jpg" style="height: min-content; width: min-content;">
                       </div>
                    </div>
                    <div class="slide slide_2">
                       <div class="slide-content">
-                         <h2>Slide 2</h2>
-                         <p>Content for Slide 2</p>
+                        <img src="img/dark.jpg" style="height: min-content; width: 800px;">
                       </div>
                    </div>
                    <div class="slide slide_3">
                       <div class="slide-content">
-                         <h2>Slide 3</h2>
-                         <p>Content for Slide 3</p>
+                        <img src="img/peaky-blinders.jpg" style="height: 300px; width: 800px;">
                       </div>
                    </div>
                    <div class="slide slide_4">
                       <div class="slide-content">
-                         <h2>Slide 4</h2>
-                         <p>Content for Slide 4</p>
+                        <img src="img/rick-and-morty.png" style="height: 300px; width: 800px;">
                       </div>
                    </div>
                 </div>
@@ -105,6 +102,32 @@
           </div>
        </div>
       </section>
+
+      <br><br><br><br>
+      <section id="for-you">
+         <div id='carrossel'>
+            <button type='button' id='btnleft'><</button>
+            <h2>⠀⠀Para você</h2>
+            <div id='container'>
+               ⠀⠀
+               <div id='item'><img src='img/stranger-things.png' style="width: 100%; height: 85%;"/></div>
+               <div id='item'><img src='img/akira.jpg' style="width: 100%; height: 85%;" /></div>
+               <div id='item'><img src='img/john-wick-4.jpg' style="width: 100%; height: 85%;" /></div>
+               <div id='item'><img src='img/porque-esta-e-minha-primeira-vida.jpg' style="width: 100%; height: 80%;" /></div>
+               <div id='item'><img src='img/stranger-things.png' style="width: 100%; height: 85%;"/></div>
+               <div id='item'><img src='img/akira.jpg' style="width: 100%; height: 85%;" /></div>
+               <div id='item'><img src='img/john-wick-4.jpg' style="width: 100%; height: 85%;" /></div>
+               <div id='item'><img src='img/porque-esta-e-minha-primeira-vida.jpg' style="width: 100%; height: 80%;" /></div>
+               <div id='item'><img src='img/stranger-things.png' style="width: 100%; height: 85%;"/></div>
+               <div id='item'><img src='img/akira.jpg' style="width: 100%; height: 85%;" /></div>
+
+               <div id='limitador'>Limitador</div>
+            </div>
+            ⠀⠀
+            <button type='button' id='btnright'>></button>
+         </div>
+      </section>
+
     </main>
   </body>
 </html>
